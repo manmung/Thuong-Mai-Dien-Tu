@@ -1,0 +1,21 @@
+.realted_product {
+  display: flex;
+}
+
+.realted_product__detail {
+  width: 100px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.realted_product__detail > h6:nth-child(2) {
+  font-weight: 500;
+  margin-top: -5px;
+  font-size: 12px;
+}
+
+.realted_product__detail > h6:nth-child(3) {
+  font-weight: 100;
+  font-size: 90x;
+  margin-top: -20px;
+}

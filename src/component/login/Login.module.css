@@ -1,0 +1,81 @@
+.login {
+  width: 100%;
+  background-image: url("../../Images/banner1.jpg");
+  background-size: 120% 70%;
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.loginContainer {
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.loginContent {
+  width: 20rem;
+  height: 29rem;
+  border-radius: 10px;
+  text-align: center;
+  justify-items: center;
+  background-color: white;
+}
+
+.loginContent > h2 {
+  font-style: italic;
+  font-weight: lighter;
+  padding-top: 20px;
+  margin-bottom: 2rem;
+  font-size: 28px;
+}
+
+.loginContent .loginInput {
+  position: relative;
+}
+
+.loginInput > input {
+  width: 80%;
+  height: 3rem;
+  padding-left: 0.7rem;
+  border: 1px solid rgb(203, 197, 197);
+  outline: none;
+}
+
+.loginInput > p {
+  color: red;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 100;
+  text-align: left;
+  margin-left: 2.2rem;
+}
+
+.loginBtn {
+  width: 85%;
+  height: 3rem;
+  margin-top: 15px;
+  background-color: rgb(46, 46, 46);
+  color: rgb(236, 236, 236);
+  border: none;
+  cursor: pointer;
+}
+
+.createAccount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 40px auto;
+}
+
+.createAccount > p {
+  font-weight: lighter;
+}
+
+.linkSignUp {
+  color: rgb(63, 160, 251);
+  margin-left: 5px;
+  cursor: pointer;
+}

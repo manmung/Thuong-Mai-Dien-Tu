@@ -1,0 +1,259 @@
+.cart {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  margin: 0rem 2rem 2rem 2rem;
+}
+
+.cartContainer {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cartBanner {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  background-color: #f8f9fa;
+  font-style: italic;
+}
+
+.cartBanner > h2 {
+  font-weight: normal;
+  flex: 1;
+  margin: 4rem 3rem;
+}
+
+.cartBanner > h4 {
+  margin: 4rem 3rem;
+}
+
+.cartContent > h2 {
+  font-weight: 400;
+}
+
+.cartProductItems {
+  display: flex;
+  width: 100%;
+}
+
+.cartItems {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 68% 30%;
+  gap: 0.9rem;
+}
+
+.cartItem {
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  background-color: #f8f9fa;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+
+.title > h5 {
+  padding-left: 1.2rem;
+  font-weight: normal;
+}
+
+.cartProduct {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartProduct > img {
+  padding-top: 5px;
+}
+
+.cartProduct > h6 {
+  margin-top: 20px;
+  font-size: 10px;
+  width: 70px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.cartProduct > h6:nth-child(3) {
+  width: 50px;
+  color: rgb(165, 165, 165);
+  font-weight: lighter;
+}
+
+.cartQuantity {
+  margin: 1.2rem 0 0 2rem;
+}
+
+.iconQuantity {
+  cursor: pointer;
+}
+
+.cartQuantity > span {
+  font-size: 13px;
+  padding: 5px;
+}
+
+.cartProduct > h6:nth-child(5) {
+  width: 50px;
+  margin-left: 1.5rem;
+  color: rgb(165, 165, 165);
+  font-weight: lighter;
+}
+
+.cartProduct > svg {
+  margin: 2rem 2.2rem;
+  cursor: pointer;
+  color: rgb(131, 131, 131);
+}
+
+.backAndNext {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  height: 3rem;
+  margin-top: 20px;
+}
+
+.continueShopping {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.continueShopping > h6 {
+  font-weight: 350;
+  font-size: 12px;
+}
+
+.continueShopping > h6:hover {
+  transform: scale(1.1);
+}
+
+.cartCheckout {
+  font-size: 18px;
+  width: 8.5rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #88898a;
+  margin: auto 1rem;
+  cursor: pointer;
+}
+
+.cartCheckout > h6 {
+  font-weight: 400;
+  color: #717070;
+  padding: 0px 5px 0px 5px;
+}
+
+.cartTotalContainer {
+  height: auto;
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+.cartTotalContainer > h3 {
+  font-weight: 400;
+}
+
+.SubTotal {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #a5a7a9;
+  padding-bottom: 5px;
+}
+
+.SubTotal > h6 {
+  margin: 0;
+  flex: 1;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.SubTotal > span {
+  font-size: 12px;
+  color: rgb(165, 165, 165);
+}
+
+.total {
+  width: 100%;
+  display: flex;
+  margin-top: 5px;
+}
+
+.total > h6 {
+  margin-top: 0;
+  flex: 1;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.total > span {
+  font-size: 14px;
+}
+
+.cartTotalContainer > input {
+  width: 8.3rem;
+  font-size: 12px;
+  padding: 10px;
+  margin-left: 1rem;
+  border: 1px solid #a5a7a9;
+  margin-bottom: -2px;
+}
+
+.cartTotalContainer > button {
+  width: 9.68rem;
+  height: 1.8rem;
+  border: 1px solid #a5a7a9;
+  text-align: center;
+  margin-left: 1rem;
+  background-color: #383838;
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.cartTotalContainer > button > svg {
+  padding-right: 5px;
+}
+
+/* Chưa có sản phẩm nào */
+.cartEmpty {
+  text-align: center;
+  width: 100%;
+}
+
+.cartEmpty > p {
+  color: red;
+}
+
+.startShopping {
+  display: flex;
+  width: 200px;
+  height: 1.5rem;
+  border: 1px solid;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 13rem;
+  background-color: #1b2a49;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.startShopping:hover {
+  background-color: rgb(3, 22, 22);
+}
+
+.startShopping > svg {
+  padding-top: 0.2rem;
+}
